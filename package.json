@@ -1,0 +1,28 @@
+{
+  "name": "comprar",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "^6.1.2",
+    "expo": "^54.0.29",
+    "expo-status-bar": "^3.0.9",
+    "lucide-react-native": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-native": "^0.83.0",
+    "react-native-svg": "^15.15.1",
+    "react-native-web": "^0.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@types/react": "^19.2.7",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}
