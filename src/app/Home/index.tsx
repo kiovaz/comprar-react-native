@@ -5,6 +5,7 @@ import { Button } from "@/Components/Button"
 import { Input } from "@/Components/Input"
 import { Filter } from "@/Components/Filter"
 import { FilterStatus } from "@/types/FilterStatus"
+import { Item } from "@/Components/Item"
 
 
 const FILTER_STATUS: FilterStatus[] = [FilterStatus.PENDING, FilterStatus.DONE]
@@ -33,6 +34,9 @@ export function Home() {
             <Text style={styles.clearText}>Limpar</Text>
           </TouchableOpacity>
         </View>
+        <Item data={{status: FilterStatus.DONE, description:'café'}}
+        onStatus={() => console.log('muda status')}
+        onRemove={() => console.log('remover')}/>
       </View>
     </View>
   )
