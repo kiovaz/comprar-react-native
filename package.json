@@ -9,12 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
     "expo": "~54.0.29",
     "expo-status-bar": "~3.0.9",
+    "lucide-react-native": "^0.561.0",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-web": "^0.21.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.5",
     "@types/react": "~19.1.0",
     "typescript": "~5.9.2"
   },
